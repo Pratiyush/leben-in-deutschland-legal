@@ -1,0 +1,6 @@
+:root { color-scheme: light dark; --ink: #1c1b1f; --bg: #fbfaf6; --muted: #5f5d66; --link: #0b57d0; }
+@media (prefers-color-scheme: dark) { :root { --ink: #e8e6ea; --bg: #141317; --muted: #a8a5ae; --link: #8ab4f8; } }
+body { font: 16px/1.6 system-ui, -apple-system, sans-serif; color: var(--ink); background: var(--bg); max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+h1 { font-size: 1.6rem; line-height: 1.25; } h2 { font-size: 1.3rem; margin-top: 2.5rem; border-top: 1px solid var(--muted); padding-top: 1.5rem; } h3 { font-size: 1.05rem; margin-top: 1.6rem; }
+a { color: var(--link); } nav { font-size: .95rem; color: var(--muted); margin-bottom: 1rem; }
+.flag { display: inline-block; width: 48px; height: 32px; border-radius: 6px; background: linear-gradient(#000 0 33.3%, #dd0000 33.3% 66.6%, #ffce00 66.6%); vertical-align: middle; margin-right: 10px; }
